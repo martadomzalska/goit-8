@@ -1,0 +1,19 @@
+@import "base";
+
+.container--header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  
+}
+.header {
+  border-bottom: 1px solid getColor("headlineBorder");
+}
+@media screen and (min-width:1200px) {
+}
+@import "logo-top";
+@import 'menu-toggle-button';
+@import "header-nav";
+@import "contact-menu";
+
